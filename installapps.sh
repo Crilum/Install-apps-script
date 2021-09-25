@@ -50,9 +50,9 @@ REVVID='\e[7m'
 
 #Install Script
 
-echo -e "${CYAN}${BOLD}\nWelcome to Adam's Install Script for new Raspberry Pi OS installs!\n${NC}"
+echo -e "${CYAN}${BOLD}\nWelcome to Crilum's Install Script for new Raspberry Pi OS installs!\n${NC}"
 
-read -r -p "Install apt and Adam's favorite apps on apt? [Y/n] " input
+read -r -p "Install apt and Crilum's favorite apps on apt? [Y/n] " input
 case $input in
        [Yy][Ee][Ss]|[Yy])
        sudo apt install snapd exfat-fuse exfat-utils ardour code matchbox-keyboard gparted gnome-disk-utility rhythmbox kazam ffmulticonverter flatpak cowsay picard gnome-music gnome-sound-recorder unoconv ffmpeg gnome-boxes glxgears libreoffice inkscape imagemagick qemu gimp fuse f2fs-tools epson-printer-utility epson-inkjet-printer-escpr2 epson-backend deepin-screen-recorder cups cmatrix blender appmenu-gtk2-module appmenu-gtk3-module appmenu-gtk-module-common nginx anydesk
@@ -72,7 +72,7 @@ if [ "$invalid2" == "i" ]; then
  exit
 
  else
-read -r -p "Install snapd and Adam's favorite snaps? [Y/n] " input
+read -r -p "Install snapd and Crilum's favorite snaps? [Y/n] " input
 case $input in
        [Yy][Ee][Ss]|[Yy])
        sudo snap install youtube-dl 
@@ -92,7 +92,7 @@ if [ "$invalid3" == "i" ]; then
  exit
 else
 
-read -r -p "Do you want to install Pi-Apps and Adam's favorite Pi Apps? [Y/n] " input
+read -r -p "Do you want to install Pi-Apps and Crilum's favorite Pi Apps? [Y/n] " input
 case $input in
        [yY][eE][sS]|[yY])
        cd /home/pi
