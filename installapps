@@ -98,7 +98,7 @@ case $input in
        cd /home/pi
        wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
        wget -q https://raw.githubusercontent.com/Itai-Nelken/PiApps-terminal_bash-edition/main/pi-apps-terminal-bash-edition.sh -O $HOME/pi-apps/pi-apps-terminal-bash-edition.sh 
-pi-apps multi-install AndroidBuddy AnyDesk Autostar BalenaEtcher "Bongo Cam" Box64 Box86 Wine (x64) "Chromium Widevine" CloudBuddy "Color Emoji font" "Conky Rings" "Cool Retro Term" Discord Drawing eDEX-UI "Https File Server" "Lego Digital Designer" Node.js "Pi-Apps Terminal Plugin (python)" "Pi Power Tools" QEMU Scrcpy Snapdrop "Snap Store" SpeedTest-CLI "Sublime Text" Sysmon Timeshift Turbowarp Vivaldi "Web Apps" "Windows Flasher" "Windows Screensavers" "Wine (x86)" Zoom "TeamViewer Host" "Firefox Rapid Release"
+pi-apps multi-install AndroidBuddy AnyDesk Autostar BalenaEtcher "Bongo Cam" Box64 Box86 "Chromium Widevine" CloudBuddy "Color Emoji font" "Conky Rings" "Cool Retro Term" Discord Drawing eDEX-UI "Https File Server" "Lego Digital Designer" Node.js "Pi-Apps Terminal Plugin (python)" "Pi Power Tools" QEMU Scrcpy Snapdrop "Snap Store" SpeedTest-CLI "Sublime Text" Sysmon Timeshift Turbowarp Vivaldi "Web Apps" "Windows Flasher" "Windows Screensavers" "Wine (x86)" Zoom "TeamViewer Host" "Firefox Rapid Release"
        ;;
       [nN][oO]|[nN])
  echo -e "${RED}No${NC}"
