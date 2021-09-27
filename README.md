@@ -12,4 +12,13 @@ Copy the script to `/bin/`:
 `cd Install-apps-script && sudo cp installapps /bin/`
 
 And then make it executable:
+
 `sudo chmod +x /bin/installapps`
+
+Finally, remove the cloned repo (if you want), and you're all done!
+
+`cd ../ && rm Install-apps-script`
+
+---
+
+Try it out by typing `installapps`!
