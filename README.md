@@ -21,4 +21,4 @@ Finally, remove the cloned repo (if you want), and you're all done!
 
 ---
 
-Try it out by typing `installapps`!
+Try it out by typing `installapps` in your Terminal!
