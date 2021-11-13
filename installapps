@@ -55,7 +55,7 @@ echo -e "${CYAN}${BOLD}\nWelcome to Crilum's Install Script for new Raspberry Pi
 read -r -p "Install apt and Crilum's favorite apps on apt? [Y/n] " input
 case $input in
        [Yy][Ee][Ss]|[Yy])
-       sudo apt install snapd exfat-fuse exfat-utils ardour code matchbox-keyboard gparted gnome-disk-utility rhythmbox kazam flatpak cowsay picard gnome-sound-recorder unoconv ffmpeg gnome-boxes libreoffice inkscape imagemagick qemu gimp fuse f2fs-tools deepin-screen-recorder cups cmatrix blender appmenu-gtk2-module appmenu-gtk3-module appmenu-gtk-module-common nginx
+       sudo apt install snapd exfat-fuse exfat-utils ardour code matchbox-keyboard gparted gnome-disk-utility rhythmbox kazam flatpak cowsay picard gnome-sound-recorder unoconv ffmpeg gnome-boxes libreoffice inkscape imagemagick qemu gimp fuse f2fs-tools simplescreenrecorder cmatrix blender appmenu-gtk2-module appmenu-gtk3-module appmenu-gtk-module-common nginx
 
        ;;
 [nN][oO]|[nN])
