@@ -1,32 +1,9 @@
 # Install-apps-script
 Main purpose is for installing my favorite apps to RPiOS.
 
-# Installing
+# Running the script
 
-Just clone the repo:
-
+Really simple:
 ```
-git clone https://github.com/Crilum/Install-apps-script
+curl https://github.com/Crilum/Install-apps-script/raw/main/installapps | bash
 ```
-
-Copy the script to `/bin/`:
-
-```
-cd Install-apps-script && sudo cp installapps /bin/
-```
-
-And then make it executable:
-
-```
-sudo chmod +x /bin/installapps
-```
-
-Finally, remove the cloned repo (if you want), and you're all done!
-
-```
-cd ../ && rm Install-apps-script
-```
-
----
-
-Try it out by typing `installapps` in your Terminal!
