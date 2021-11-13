@@ -5,5 +5,5 @@ Main purpose is for installing my favorite apps to RPiOS.
 
 Really simple:
 ```
-curl https://github.com/Crilum/Install-apps-script/raw/main/installapps | bash
+curl https://raw.githubusercontent.com/Crilum/Install-apps-script/main/installapps| bash
 ```
